@@ -1,7 +1,10 @@
 wildfly:
  rules:
-   - title: "test"
-   - body: "test"
+   - id: id-1 
+     title: "test124"
+     notify: [bathwal.ankit]
+   - id: id-2
+     body: "test567"
      notify: [bathwal.ankit]
  format:
    title:
