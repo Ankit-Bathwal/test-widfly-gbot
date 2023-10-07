@@ -1,0 +1,14 @@
+wildfly:
+ rules:
+   - title: "test"
+   - body: "test"
+     notify: [bathwal.ankit]
+ format:
+   title:
+     message: "Wrong content of the PR title"
+   description:
+     regexes:
+       - pattern: "JIRA:\\s+https://issues.redhat.com/browse/WFLY-\\d+|https://issues.redhat.com/browse/WFLY-\\d+"
+         message: "The PR description must contain a link to the JIRA issue"
+ emails:
+   - bathwal.ankit@gmail.com
