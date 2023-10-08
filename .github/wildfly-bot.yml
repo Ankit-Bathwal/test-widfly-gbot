@@ -2,10 +2,10 @@ wildfly:
  rules:
    - id: id-1 
      title: "test124"
-     notify: [Ankit-Bathwal]
+     notify: [Ankit-Bathwal,Aman]
    - id: id-2
      body: "test567"
-     notify: [Ankit-Bathwal]
+     notify: [Ankit-Bathwal,Aman]
  format:
    title:
      message: "Wrong content of the PR title"
@@ -15,3 +15,4 @@ wildfly:
          message: "The PR description must contain a link to the JIRA issue"
  emails:
    - bathwal.ankit@gmail.com
+   - baman@gyc.gys
