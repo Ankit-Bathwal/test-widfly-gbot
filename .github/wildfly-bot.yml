@@ -2,10 +2,10 @@ wildfly:
  rules:
    - id: id-1 
      title: "test124"
-     notify: [Ankit-Bathwal,Aman,Ravi]
+     notify: [Ankit-Bathwal,Aman,Cage,Ravi]
    - id: id-2
      body: "test567"
-     notify: [Ankit-Bathwal,Aman,Ravi]
+     notify: [Ankit-Bathwal,Aman,Cage,Ravi]
  format:
    title:
      message: "Wrong content of the PR title"
