@@ -3,7 +3,7 @@ wildfly:
    - id: id-1 
      title: "test124"
      notify: 
-       - random-p
+       - Ankit-Bathwal
    - id: id-2
      body: "test567"
      notify: [Ankit-Bathwal]
