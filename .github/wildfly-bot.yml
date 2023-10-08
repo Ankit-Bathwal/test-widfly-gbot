@@ -2,7 +2,8 @@ wildfly:
  rules:
    - id: id-1 
      title: "test124"
-     notify: [Ankit-Bathwal]
+     notify: 
+       - random-p
    - id: id-2
      body: "test567"
      notify: [Ankit-Bathwal]
